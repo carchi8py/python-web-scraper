@@ -10,7 +10,9 @@ These instruction will tell you how to run the script
 
 ### Prerequisites
 
-Python (no custom egg's needed)
+```
+pip3 install bs4
+```
 
 ## Running the tests
 
