@@ -16,3 +16,11 @@ for item in links:
     if item_text and item_herf:
         print(item_text)
         print(item_herf)
+        print("Parent:", item.find("a").parent)
+        print("Summary:", item.find("a").parent.parent.find("p").text)
+        children = item.children
+        for child in children:
+            print("Child:", child)
+
+        children = item.find("h2")
+        print("Next Sibling of the h2:", children.next_sibling)
