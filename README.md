@@ -12,6 +12,8 @@ These instruction will tell you how to run the script
 
 ```
 pip3 install bs4
+pip3 install requests
+pip3 install pillow
 ```
 
 ## Running the tests
